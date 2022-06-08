@@ -1,0 +1,47 @@
+body{
+	background-image: url("https://images2.alphacoders.com/659/thumb-1920-659390.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.bg{
+	position: absolute;
+	top: -1%;
+	left: -1%;
+}
+.title{
+	position:absolute;
+	left:37%;
+}
+
+
+.btn{
+	border-radius: 15px;
+	background-color: grey;
+	padding: 20px 90px;
+	position: absolute;
+	left: 40%;
+	box-shadow: 0 5px #999;
+	transition:0.5s;
+}
+.btn:hover{
+	background-color: rgb(210,210,210);
+	cursor:pointer;
+}
+.btn:active{
+	background-color: rgb(210,210,210);
+	box-shadow: 0 0px;
+	color:black;
+}
+.Mapa{
+	top: 290px;
+}
+.Definicoes{
+	top:360px;
+}
+.Ajuda{
+	top:430px;
+}
+.Creditos{
+	top:500px;
+}

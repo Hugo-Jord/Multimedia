@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/ajuda.css">
+		<script type="text/javascript" src="../js/ajuda.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<audio controls hidden autoplay="true" loop>
+				<source src = "../Resources/Musica/ajuda_theme.mp3">
+			</audio>
+		</header>
+		<nav>
+			<button class ="btn resumo" id = "resumo">Resumo da História</button>
+			<button class ="btn objetivo" id = "objetivo">Próximo Objetivo</button>
+			<button class ="btn controlos" id = "controlos">Controlos</button>
+			<button class="goback" id="goback"><img src="../Resources/goback.png" style= "width: 50px; height: 25px;"></button>
+			<div class="modal" id="ModalRes">
+				<div class="modal-content">
+  					<div class="modal-header">
+    					<span class="close res">&times;</span>
+    					<h2>Resumo da História</h2>
+  					</div>
+  					<div class="modal-body">
+						<p>Tu és um pirata vindo de longe à procura de um tesouro extremamente valioso. Para tal, precisas de derrotar vários piratas nativos que não gostam de estrangeiros, à volta de várias ilhas do arquipélago.</p>
+  					</div>
+				</div>
+			</div>
+			<div class="modal" id="ModalObj">
+				<div class="modal-content">
+  					<div class="modal-header">
+    					<span class="close obj">&times;</span>
+    					<h2>Próximo Objetivo</h2>
+  					</div>
+  					<div class="modal-body">
+    					<p>Continua a tua jornada, derrotanto os navios piratas de cada ilha à procura do tesouro escondido!</p>
+  					</div>
+				</div>
+			</div>
+			<div class="modal" id="ModalCtrl">
+				<div class="modal2-content">
+  					<div class="modal-header">
+    					<span class="close ctrl">&times;</span>
+    					<h2>Controlos</h2>
+  					</div>
+  					<div class="modal-body">
+    					<img class="ctrl" src="../Resources/controls.jpg" style="width:600px;height:300px;">
+  					</div>
+				</div>
+			</div>
+		</nav>
+	</body>
+</html>

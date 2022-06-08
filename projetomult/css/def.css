@@ -1,0 +1,120 @@
+body{
+	background-image: url(https://i.pinimg.com/originals/8d/35/2c/8d352c24b7a4b548e23fd92a99958d2f.png);
+	background-position: right;
+	background-size: cover;
+}
+.dif{
+	text-align: center;
+	display: block;
+  	margin-top: 3%;
+  	margin-left: 3%;
+  	font-weight: bold;
+}
+.slider_p{
+	text-align: center;
+	display: block;
+  	margin-top: 6%;
+  	margin-left: 3%;
+  	font-weight: bold;
+}
+
+.delete_p{
+	text-align: center;
+	display: block;
+  	margin-top: 23.5%;
+  	margin-left: 3%;
+  	font-weight: bold;
+}
+
+.btnDif{
+	background-color: darkgrey;
+	padding: 10px 40px;
+	position: absolute;
+	transition:0.5s;
+}
+.btnDif:hover{
+	background-color: lightyellow;
+	cursor:pointer;
+}
+.btnDif:active{
+	background-color: yellow;
+	color:black;
+}
+.normal{
+	top: 10%;
+	left: 40%;
+}
+.dificil{
+	top: 10%;
+	left: 55%;
+}
+
+.slider{
+	-webkit-appearance: none;  
+  	appearance: none;
+  	position: absolute;
+  	top: 27%;
+  	left: 42%;
+  	width: 265px; 
+  	height: 25px; 
+  	border-radius: 15px;
+  	background: grey;
+  	outline: black; 
+  	opacity: 0.7; 
+  	-webkit-transition: .2s; 
+  	transition: opacity .2s;
+
+}
+.slider:hover {
+  	opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none; 
+  	appearance: none;
+  	border-radius: 50%;
+  	width: 25px; 
+   	height: 25px; 
+  	background: blue; 
+  	cursor: pointer; 
+}
+
+.minus{
+	position: absolute;
+	top: 28%;
+	left: 41.2%;
+}
+
+.plus{
+	position: absolute;
+	top: 28%;
+	left: 61.7%;
+}
+
+.btnDelete{
+	background-color: darkgrey;
+	padding: 10px 50px;
+	position: absolute;
+	top: 80%;
+	left: 47%;
+	transition:0.5s;
+}
+.btnDelete:hover{
+	background-color: pink;
+	cursor:pointer;
+}
+.btnDelete:active{
+	background-color: red;
+	color:black;
+}
+
+.goback{
+	position: absolute;
+	bottom: 10px;
+}
+.goback:hover{
+	cursor:pointer;
+}
+.goback:active{
+	background-color: black;
+}

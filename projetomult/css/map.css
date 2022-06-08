@@ -1,0 +1,85 @@
+body{
+	background-image: url("https://cdn.discordapp.com/attachments/232551474914131968/708712174637285486/map_attempt4.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.where_p{
+	text-decoration: underline white;
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	font-size: 150%;
+}
+
+.island{
+	background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	left: 5%;
+	color: white;
+	font-size: 115%;
+}
+.island:hover{
+	cursor: pointer;
+}
+
+.one{
+	top:38%;
+}
+.two{
+	top:44%;
+}
+.three{
+	top:50%;
+}
+.four{
+	top:56%;
+}
+.five{
+	top:62%;
+}
+
+.gold{
+	position: absolute;
+	bottom: 10%;
+	right: 7.5%;
+}
+
+.gold_counter{
+	position: absolute;
+	text-align: center;
+	bottom: 4%;
+	right: 7.5%;
+}
+
+
+.godef{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+}
+.godef:hover{
+	cursor:pointer;
+}
+
+.goshop{
+	position: absolute;
+	right: 10%;
+	top: 5%;
+}
+.goshop:hover{
+	cursor:pointer;
+}
+
+.goback{
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+}
+.goback:hover{
+	cursor:pointer;
+}
+.goback:active{
+	background-color: black;
+}

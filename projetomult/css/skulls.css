@@ -1,0 +1,68 @@
+body{
+	background-image: url("https://cdn.discordapp.com/attachments/232551474914131968/709097741359513751/skullsbones.png");
+	background-position: right;
+	background-size: cover;
+}
+
+.levels_p{
+  	font-weight: bold;
+  	text-decoration: underline white;
+	position: absolute;
+	font-size: 150%;
+	top: 5%;
+	left: 5%;
+}
+
+.jogar{
+	background-color: violet;
+	padding: 50px 80px;
+	position: absolute;
+	left: 20%;
+	top: 25%;
+}
+.jogar:hover{
+	cursor: pointer;
+}
+
+.trivia_p{
+	font-weight: bold;
+  	text-decoration: underline white;
+	position: absolute;
+	font-size: 150%;
+	top: 50%;
+	left: 5%;
+}
+
+.trivia{
+	position: absolute;
+	width: 35%;
+	font-size: 100%;
+	top: 56%;
+	left: 5%;
+}
+
+.gold{
+	position: absolute;
+	bottom: 8%;
+	left: 15%;
+}
+
+.gold_counter{
+	position: absolute;
+	text-align: center;
+	font-size: 150%;
+	bottom: 2%;
+	left: 16%;
+}
+
+.goback{
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+}
+.goback:hover{
+	cursor:pointer;
+}
+.goback:active{
+	background-color: black;
+}

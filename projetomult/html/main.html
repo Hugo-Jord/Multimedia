@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Archipleago: Unknown Seas</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/main.css">
+
+		<script type="text/javascript" src = "../js/Barco.js" defer></script>
+		<script type="text/javascript" src = "../js/player.js" defer></script>
+		<script type="text/javascript" src="../js/main.js" defer></script>
+		<script type="text/javascript" src="../js/inputHandler.js" defer></script>
+		<script type="text/javascript" src="../js/inimigo.js" defer></script>
+		<script type="text/javascript" src="../js/explosion.js" defer></script>
+		<script type="text/javascript" src="../js/cannonBall.js" defer></script>
+		<script type="text/javascript" src = "../js/Objeto.js" defer></script>
+
+	</head>
+
+	<body>
+		<canvas id="my_canvas" height=600 width= 800></canvas>
+		<img id="ship1" src="../Resources/ship_1.png" hidden="true">
+		<img id="ship2" src="../Resources/ship_2.png" hidden="true">
+		<img id="ship3" src="../Resources/ship_3.png" hidden="true">
+		<img id="ship4" src="../Resources/ship_4.png" hidden="true">
+		<img id="ship5" src="../Resources/ship_5.png" hidden="true">
+		<div class="modal" id="ModalCtrl">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 id="header_messagem">Game Over</h2>
+				</div>
+				<div class="modal-body">
+					<p class="Saqueado ctrl" id="mensagem"></p>
+				</div>
+				<div class="modal-footer">
+					<button id="restart" class="Restart ctrl">Restart</button>
+					<button id="back" class="back ctrl">Back to Main Menu</button>
+				</div>
+			</div>
+		</div
+	</body>
+</html>

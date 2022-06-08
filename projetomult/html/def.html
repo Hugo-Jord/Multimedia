@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/def.css">
+		<script type="text/javascript" src="../js/def.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<audio controls hidden autoplay="true" loop>
+				<source src = "../Resources/Musica/elevator.mp3">
+			</audio>
+		</header>
+		<nav>
+			<p class="dif" style="color: yellow">Nível de dificuldade: 
+				<button class ="btnDif normal" id = "normal">Normal</button>
+				<button class ="btnDif dificil" id = "dificil">Difícil</button>
+			</p>
+			<p class="slider_p" style="color: blue">Ajuste da música:
+				<div class="slidecontainer">
+ 					 <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+				</div>
+			</p>
+			<img class= "plus" src="../Resources/+.svg" style="width:10px;height:10px;">
+			<img class= "minus" src="../Resources/-.png" style="width:10px;height:10px;">
+			<p class="delete_p" style="color: black">Deseja apagar todo o seu progresso? 
+				<button class ="btnDelete" id= "delete">Sim</button>
+			</p>
+			<button class="goback" id="goback"><img src="../Resources/goback.png" style= "width: 50px; height: 25px;"></button>
+		</nav>
+		
+	</body>
+</html>
